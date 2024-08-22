@@ -1,0 +1,52 @@
+body{
+background-image: url("./jonatan-lewczuk-MAN-afLJt2E-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* Descendant.Combinator */
+.box p {
+  color: green;
+}
+/* child combinator */
+section > p {
+  color: red;
+}
+/* tergeting aggacent sibling in a class */
+p + section {
+  background-color:rgba(216, 112, 147, 0.185);
+}
+#text {
+  background-color: aquamarine;
+  color: blueviolet;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: fit-content;
+}
+/* hover helps you to hover over selected element */
+#text:hover{
+  height: 50px;
+  background-color: rgba(165, 42, 42, 0.219);
+  color: black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* text stylking */
+.para{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 100cap;
+    text-justify: distribute-all-lines;
+    background-color: rgba(216, 112, 147, 0.185);
+    text-rendering: geometricPrecision;
+    border-top-style: ridge;
+    text-wrap: 50px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    font-size: 20px;
+}
+.para:hover {
+    background-color: rgba(165, 42, 42, 0.221);
+    cursor: pointer;
+}
