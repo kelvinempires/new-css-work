@@ -1,9 +1,9 @@
-body{
-background-image: url("./jonatan-lewczuk-MAN-afLJt2E-unsplash.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0;
-padding: 0;
+body {
+  background-image: url("./jonatan-lewczuk-MAN-afLJt2E-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 /* Descendant.Combinator */
 .box p {
@@ -16,69 +16,66 @@ section > p {
 /* tergeting aggacent sibling in a class */
 /* p + section {
   background-color:rgba(216, 112, 147, 0.185); */
-}
-.section{
-  background-color: rgba(165, 42, 42, 0.219) ;
+.section {
+  background-color: rgba(165, 42, 42, 0.219);
   cursor: pointer;
 }
-}
 #text {
-  background-color: aquamarine;
+  background-color: black;
   color: blueviolet;
   padding: 5px 15px;
   border-radius: 5px;
   width: fit-content;
 }
 /* hover helps you to hover over selected element */
-#text:hover{
-  height: 50px;
-  background-color: rgba(165, 42, 42, 0.219);
-  color: black;
+#text:hover {
+  height: 10px;
+  width: 500px;
+  background-color: white;
   border-radius: 20px;
   padding: 10px 20px;
   cursor: pointer;
 }
 /* text stylking */
-.para{
-    color: aliceblue;
-    text-align: center;
-    text-shadow: 100cap;
-    text-justify: distribute-all-lines;
-    background-color: rgba(216, 112, 147, 0.185);
-    text-rendering: geometricPrecision;
-    border-top-style: ridge;
-    text-wrap: 50px;
-    line-height: 30px;
-    font-size: 20px;
+.para {
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 100cap;
+  text-justify: distribute-all-lines;
+  background-color: rgba(216, 112, 147, 0.185);
+  text-rendering: geometricPrecision;
+  border-top-style: ridge;
+  text-wrap: 50px;
+  line-height: 30px;
+  font-size: 20px;
 }
 .para:hover {
-    background-color: rgba(165, 42, 42, 0.221);
-    cursor: pointer;
+  background-color: rgba(165, 42, 42, 0.221);
+  cursor: pointer;
 }
 .extention {
   color: antiquewhite;
-  background-color:rgba(216, 112, 147, 0.185) ;
-} 
-.extention:hover{
-  background-color: rgba(165, 42, 42, 0.219) ;
+  background-color: rgba(216, 112, 147, 0.185);
+}
+.extention:hover {
+  background-color: rgba(165, 42, 42, 0.219);
   cursor: pointer;
 }
 /* styles.css */
 .image {
-    position: relative;
-    overflow: hidden;
-    width: 300px; /* Adjust to fit your design */
-    height: 200px; /* Adjust to fit your design */
+  position: relative;
+  overflow: hidden;
+  width: 300px; /* Adjust to fit your design */
+  height: 200px; /* Adjust to fit your design */
 }
 
 .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Optional: helps to maintain aspect ratio */
-    transition: transform 0.5s ease; /* Smooth transition effect */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Optional: helps to maintain aspect ratio */
+  transition: transform 0.5s ease; /* Smooth transition effect */
 }
 
 .image:hover img {
-    transform: scale(1.5); /* Adjust the scale value for more/less zoom */
+  transform: scale(1.5); /* Adjust the scale value for more/less zoom */
 }
-
