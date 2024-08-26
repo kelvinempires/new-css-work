@@ -48,6 +48,8 @@ section > p {
   text-wrap: 50px;
   line-height: 30px;
   font-size: 20px;
+  /* display: none;this hide it entirally from the web */
+  visibility: hidden; /*hide the image from visiblity,this leave a space where the image is */
 }
 .para:hover {
   background-color: rgba(165, 42, 42, 0.221);
@@ -78,4 +80,83 @@ section > p {
 
 .image:hover img {
   transform: scale(1.5); /* Adjust the scale value for more/less zoom */
+}
+.p-tag {
+  color: white;
+}
+/* display inline dose not allow much navigation it make the text to be on the same  line */
+.two {
+  display: inline; /* this makes the iterm to be on the same line */
+  background-color: brown;
+  height: 1000px;
+  width: 10000px;
+}
+/* display block allow the box element to be navigated */
+.block {
+  display: block;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.inline-block {
+  display: inline-block;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+/* FLEX BOX */
+/* in flex box the div tag is the one that is targeted  */
+.flex {
+  background-color: blueviolet;
+  display: flex; /* to use flex you have to display flax first(theis is for the main ais) */
+  align-items: start; /* center ,end this works for the horrontal axis */
+  justify-content: space-around; /* there is end,around ,start etc */
+  /* flex-direction: ; */
+  font-size: 40px;
+  height: 20rem;
+}
+.flex-column {
+  display: flex;
+  gap: 200px;
+  background-color: blue;
+  font-size: 40px;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  align-items: center;
+}
+nav{
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+}
+.right{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.logo {
+  height: 50px;
+}
+.button{
+  display: flex;
+  gap: 20px;
+}
+button{
+  font-size: 18px;
+  border: ipx solid black;
+  padding: 5px 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
 }
