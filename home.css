@@ -4,7 +4,7 @@ nav {
   background-color: white;
   color: black;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   z-index: 10;
   left: 0;
   right: 0;
@@ -29,7 +29,7 @@ ul {
   gap: 20px;
 }
 button {
-  font-size: 18px;
+  font-size: 16px;
   border: ipx solid black;
   padding: 5px 20px;
   background-color: transparent;
@@ -77,4 +77,55 @@ p {
   width: 45%;
   font-weight: 400;
   line-height: 20px;
+}
+.trinity {
+  position: absolute;
+  right: 24%;
+  top: 320px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid;
+  padding: 5px 15px 5px 5px;
+  border-radius: 90px;
+  gap: 10px;
+  border: 1px solid #e0e0e0;
+}
+.trinityimage {
+  height: 50px;
+}
+.trinityTexts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.trinityTexts > h6 {
+  font-size: 30px;
+  margin: 0;
+}
+#happy {
+  position: static;
+  margin: 0;
+  font-size: 12px;
+  width: 100%;
+}
+.flotCard {
+  position: absolute;
+  height: 22rem;
+  bottom: 17%;
+  left: 3%;
+}
+.vegetable {
+  position: absolute;
+  bottom: 12%;
+  height: 4rem;
+  left: 37%;
+}
+.organicPurity {
+  position: absolute;
+  bottom: 19%;
+  height: 4rem;
+  right: 17%;
 }
